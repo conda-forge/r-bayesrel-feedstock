@@ -1,11 +1,22 @@
+About r-bayesrel-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bayesrel-feedstock/blob/main/LICENSE.txt)
+
 About r-bayesrel
-================
+----------------
 
 Home: https://github.com/juliuspf/Bayesrel
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bayesrel-feedstock/blob/main/LICENSE.txt)
+Summary: Functionality for the most common single test reliability estimates: Coefficient alpha, 'Guttman's' lambda-2/-4/-6, the Greatest lower bound and coefficient omega. The Bayesian estimates are provided with credible intervals. The frequentist estimates are provided with bootstrapped confidence intervals The method for the Bayesian estimates, except for omega, is sampling from the posterior inverse 'Wishart' for the covariance matrix based measures (see 'Murphy', 2007, <https://www.seas.harvard.edu/courses/cs281/papers/murphy-2007.pdf>. In the case of omega it is 'Gibbs' Sampling from the joint conditional distributions of a single factor model ('Lee', 2007, <doi:10.1002/9780470024737>). The glb method uses adjusted code from the 'Rcsdp' package by 'Hector Corrada Bravo', <https://CRAN.R-project.org/package=Rcsdp>. This process applies a slightly adjusted solving algorithm from the 'CSDP' library by 'Brian Borchers' <https://github.com/coin-or/Csdp/wiki>, <doi:10.1080/10556789908805765>, but is wrapped in 'RcppArmadillo'. Guttman's Lambda-4 is from 'Benton' (2015) <doi:10.1007/978-3-319-07503-7_19>. The principal factor analysis for a version of frequentist omega is from 'Schlegel' (2017) <https://www.r-bloggers.com/2017/03/iterated-principal-factor-method-of-factor-analysis-with-r/>. The analytic confidence interval of alpha is from 'Bonett' and 'Wright' (2015) <doi:10.1002/job.1960>.
+About r-bayesrel
+----------------
+
+Home: https://github.com/juliuspf/Bayesrel
+
+Package license: GPL-3.0-only
 
 Summary: Functionality for the most common single test reliability estimates: Coefficient alpha, 'Guttman's' lambda-2/-4/-6, the Greatest lower bound and coefficient omega. The Bayesian estimates are provided with credible intervals. The frequentist estimates are provided with bootstrapped confidence intervals The method for the Bayesian estimates, except for omega, is sampling from the posterior inverse 'Wishart' for the covariance matrix based measures (see 'Murphy', 2007, <https://www.seas.harvard.edu/courses/cs281/papers/murphy-2007.pdf>. In the case of omega it is 'Gibbs' Sampling from the joint conditional distributions of a single factor model ('Lee', 2007, <doi:10.1002/9780470024737>). The glb method uses adjusted code from the 'Rcsdp' package by 'Hector Corrada Bravo', <https://CRAN.R-project.org/package=Rcsdp>. This process applies a slightly adjusted solving algorithm from the 'CSDP' library by 'Brian Borchers' <https://github.com/coin-or/Csdp/wiki>, <doi:10.1080/10556789908805765>, but is wrapped in 'RcppArmadillo'. Guttman's Lambda-4 is from 'Benton' (2015) <doi:10.1007/978-3-319-07503-7_19>. The principal factor analysis for a version of frequentist omega is from 'Schlegel' (2017) <https://www.r-bloggers.com/2017/03/iterated-principal-factor-method-of-factor-analysis-with-r/>. The analytic confidence interval of alpha is from 'Bonett' and 'Wright' (2015) <doi:10.1002/job.1960>.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13353&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bayesrel-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13353&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13353&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bayesrel-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bayesrel-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13353&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bayesrel-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13353&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bayesrel-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
