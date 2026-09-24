@@ -1,4 +1,4 @@
-{% set version = "0.7.9" %}
+{% set version = "0.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Bayesrel_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Bayesrel/Bayesrel_{{ version }}.tar.gz
-  sha256: 91e21b0e64d17ddea86fae46647631f5af417265648c66b761b4d0a65bd0b24c
+  sha256: e87e12bea90c636d0308715d5097c364564f30cb938812d5700d6c193a2bd03d
 
 build:
   number: 0
